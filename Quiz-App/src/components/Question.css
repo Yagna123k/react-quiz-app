@@ -45,25 +45,25 @@ h2{
     margin-bottom: 100px;
 }
 
-.nextoptions{
+.nextOptions{
     margin-top: 50px;
 }
-.nextoptions button{
+.nextOptions button{
     margin: 0 15px;
     box-shadow: none;
 }
 
-#previous{
+.previous{
     background-color: #2196F3;
 }
 
-#next{
+.next{
     background-color: #4CAF50;
 }
 
-#quit{
+.quit{
     background-color: #ff4d00;
 }
-#question{
+.question{
     width: 80%;
 }

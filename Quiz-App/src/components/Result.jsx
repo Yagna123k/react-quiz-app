@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import './Result.css'
 
-function Result(){
+function Result({setState}){
     return(
         <div className='container'>
         <h1 style={{
@@ -18,7 +19,7 @@ function Result(){
                 <b><p>9</p></b>
             </div>
             <div className='details'>
-                <b><p>Number of currect answers</p></b>
+                <b><p>Number of correct answers</p></b>
                 <b><p>3</p></b>
             </div>
             <div className='details'>
@@ -27,8 +28,8 @@ function Result(){
             </div>
         </div>
         <div>
-            <button id='again'>Play Again</button>
-            <button id='home'>Back to Home</button>
+            <button id='again' onClick={()=>{setState(2)}}>Play Again</button>
+            <button id='home' onClick={()=>{setState(1)}}>Back to Home</button>
         </div>
         </div>
     )
